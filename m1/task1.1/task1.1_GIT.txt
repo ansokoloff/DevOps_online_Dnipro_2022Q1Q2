@@ -1,0 +1,18 @@
+e2f717e HEAD@{0}: merge develop: Fast-forward
+2ae1039 HEAD@{1}: checkout: moving from develop to main
+e2f717e HEAD@{2}: checkout: moving from styles to develop
+466c2ca HEAD@{3}: checkout: moving from develop to styles
+e2f717e HEAD@{4}: commit (merge): Fix conflict
+bb3d7b2 HEAD@{5}: merge images: Fast-forward
+20752ad HEAD@{6}: checkout: moving from styles to develop
+466c2ca HEAD@{7}: commit: Changed index.html
+6570b43 HEAD@{8}: commit: Added css file
+20752ad HEAD@{9}: checkout: moving from develop to styles
+20752ad HEAD@{10}: checkout: moving from images to develop
+bb3d7b2 HEAD@{11}: commit: Changed index.html
+8869173 HEAD@{12}: commit: Added some images
+20752ad HEAD@{13}: checkout: moving from develop to images
+20752ad HEAD@{14}: commit: Added index.html
+2ae1039 HEAD@{15}: checkout: moving from main to develop
+2ae1039 HEAD@{16}: commit: init commit
+13a665e HEAD@{17}: clone: from https://github.com/ansokoloff/DevOps_online_Dnipro_2022Q1Q2.git
