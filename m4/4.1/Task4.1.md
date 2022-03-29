@@ -1,9 +1,9 @@
 # Task4.1
-##1) and 2)
+## 1) and 2)
  - When password of some users will be changed, the file /etc/shadow will be changed too.
 ![](scr1.png)
 
-##3) 
+## 3) 
  
 - I'd used a command 
 ```sh
@@ -34,7 +34,7 @@ to determine the users who right now in system are
 
 ![](scr2.png)
 
-##4) and 5)
+## 4) and 5)
 I've changed information about me and I've used two options for these command
 ```sh
 usermod -s  
@@ -46,7 +46,7 @@ First options change the shell of the user, second option add the user to the su
 
 ![](scr3.png)
 
-##6) 
+## 6) 
 ```sh
 more
 ```
@@ -56,13 +56,13 @@ less
 ```
 This command is combine of two commands - vi and more
 
-##7)
+## 7)
 I've used this command with option -s
 ```sh
 finger -s jenkins
 ```
 ![](scr4.png)
-##8)
+## 8)
 Two commands with same possibility was used by me - 
 ```sh
 tree
@@ -71,7 +71,7 @@ tree
 ls -la
 ```
 ![](scr6.png)
-#Part2
+# Part2
 ## 1)Examine the tree command.
 ![](scr8.png)
 ## 2) What command can be used to determine the type of file
