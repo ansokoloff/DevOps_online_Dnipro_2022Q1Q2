@@ -11,7 +11,6 @@ for i in $f
     done
     
 cd /tmp/backup
-[ -d /tmp/backup ] || /usr/bin/mkdir /tmp/backup
 f=`/usr/bin/ls -S`
 for i in $f 
     do
