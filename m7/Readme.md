@@ -67,7 +67,8 @@ mysql> create table Students
     -> index (id));
 Query OK, 0 rows affected (0.03 sec)
 
-mysql> show tables;+--------------------+
+mysql> show tables;
++--------------------+
 | Tables_in_STUDENTS |
 +--------------------+
 | Students           |
@@ -123,7 +124,8 @@ mysql> update Students set Description='Not bad student with some notion' where 
 Query OK, 1 row affected (0.00 sec)
 Rows matched: 1  Changed: 1  Warnings: 0
 
-mysql> select * from Students;+----+-----------+------------+----------------------------------+----------------+--------+
+mysql> select * from Students;
++----+-----------+------------+----------------------------------+----------------+--------+
 | id | FirstName | Secondname | Description                      | Dateofbirthday | Course |
 +----+-----------+------------+----------------------------------+----------------+--------+
 |  1 | Petr      | Petrov     | Not bad student with some notion | 2000-05-05     |      1 |
@@ -133,7 +135,8 @@ mysql> select * from Students;+----+-----------+------------+-------------------
 mysql> insert into Tasks (course, Nameoftasks, Secondname, ReportDate) values ((select id from Course where Course='DevopsExternalWinter2022'), 'Task7.1', (select id from Students where Secondname='Petrov'), NOW());
 Query OK, 1 row affected, 1 warning (0.01 sec)
 
-mysql> select * from Tasks;+----+--------+-------------+------------+-------------+------------+
+mysql> select * from Tasks;
++----+--------+-------------+------------+-------------+------------+
 | id | Course | Nameoftasks | Secondname | Description | Reportdate |
 +----+--------+-------------+------------+-------------+------------+
 |  1 |      1 | Task7.1     |          1 | NULL        | 2022-05-08 |
@@ -167,6 +170,9 @@ mysql> select Course, count(*) as CourseCount from Students GROUP BY Course ORDE
 
 ```
 #### DDL:
+mysql> create user 'epam'@'localhost' identified by '1234556';
+Query OK, 0 rows affected (0.00 sec)
+
 mysql> alter table Students add column sex text;
 Query OK, 0 rows affected (0.01 sec)
 
@@ -198,6 +204,10 @@ mysql> delete from Students where FirstName='John';
 Query OK, 1 row affected (0.00 sec)
 
 ### DCL
+
+mysql> grant select on STUDENTS.Students to 'epam'@'localhost';
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+
 
 ```
 
