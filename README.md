@@ -11,7 +11,7 @@ https://github.com/ansokoloff/infrastructure/blob/main/Readme.md
 #### Pipeline and source of application:
 https://github.com/ansokoloff/final.git
 
-### Entiti which will be deployed to production:
+### Entity which will be deployed to production:
 
 https://github.com/ansokoloff/value.git
 
